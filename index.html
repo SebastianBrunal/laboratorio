@@ -47,12 +47,20 @@
             gap: 15px;
             margin-top: 20px;
         }
+        .photo-item {
+            text-align: center;
+        }
         .photos img {
             width: 100%;
             height: 200px;
             object-fit: cover;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+        .description {
+            font-size: 0.9em;
+            margin-top: 5px;
+            color: #333;
         }
     </style>
 </head>
@@ -73,13 +81,34 @@
         </div>
 
         <div class="photos">
-            <img src="1.jpg" alt="Foto 1">
-            <img src="2.jpg" alt="Foto 2">
-            <img src="3.jpg" alt="Foto 3">
-            <img src="4.jpg" alt="Foto 4">
-            <img src="5.jpg" alt="Foto 5">
-            <img src="6.jpg" alt="Foto 6">
-            <img src="7.jpg" alt="Foto 7">
+            <div class="photo-item">
+                <img src="1.jpg" alt="Foto 1">
+                <div class="description">Medición del diámetro de una esfera blanca usando un micrómetro de tornillo para alta precisión.</div>
+            </div>
+            <div class="photo-item">
+                <img src="2.jpg" alt="Foto 2">
+                <div class="description">Medición de distancia con cinta métrica sobre la mesa de trabajo.</div>
+            </div>
+            <div class="photo-item">
+                <img src="3.jpg" alt="Foto 3">
+                <div class="description">Uso de esferometro para medir el diámetro de una semiesfera verde.</div>
+            </div>
+            <div class="photo-item">
+                <img src="4.jpg" alt="Foto 4">
+                <div class="description">Medición de esfera blanca con micrómetro y registro de datos en cuaderno cuadriculado.</div>
+            </div>
+            <div class="photo-item">
+                <img src="5.jpg" alt="Foto 5">
+                <div class="description">Trabajo colaborativo midiendo una semiesfera verde con un esferometro.</div>
+            </div>
+            <div class="photo-item">
+                <img src="6.jpg" alt="Foto 6">
+                <div class="description">Medición de una pequeña esfera transparente usando un micrómetro.</div>
+            </div>
+            <div class="photo-item">
+                <img src="7.jpg" alt="Foto 7">
+                <div class="description">Vista general del laboratorio con estudiantes y los instrumentos de medición utilizados.</div>
+            </div>
         </div>
     </div>
 </body>
